@@ -1,0 +1,7 @@
+Talking Points
+
+- Introduce Python
+- Introduce Colab 
+    - Web environment for Jupyter Notebooks 
+    - Varialbles will be "printed"
+- 
