@@ -5,3 +5,7 @@ Talking Points
     - Web environment for Jupyter Notebooks 
     - Variables will be "printed"
 - 
+
+- Things to Consider
+    - Exceptions
+    - Discuss history (who created it, why, when, etc.)
