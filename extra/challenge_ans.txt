@@ -1,0 +1,63 @@
+1. 
+=============================================================
+
+# 1
+s = "Welcome one. Welcome all!"
+# 2
+list_of_strs = s.split('.')
+# 3
+new_s = "...".join(list_of_strs)
+#4
+new_s = new_s.replace('Welcome', 'WELCOME')
+print(new_s)
+# 5 
+print('welcome' in new_s)
+# 6
+## becuz the replace function changes all occurences of the specified string, by default
+list_of_strs = s.split('.')
+new_s = "...".join(list_of_strs)
+new_s = new_s.replace('Welcome', 'WELCOME', 1)
+print(new_s)
+
+2. 
+=============================================================
+
+#1
+sum1 = 0
+for i in range(0, 21, 2):
+    sum1 += i
+
+print(sum1)
+
+#2
+evens = []
+for i in range(21):
+    if i % 2 == 0:
+        evens.append(i)
+
+print(sum(evens))
+
+#3
+new_l = [[i for i in range(stop - 3, stop)] for stop in [4, 7, 10]]
+print(new_l)
+
+3. 
+=============================================================
+def F(l:list):
+    return sum(l), sum(l)/len(l)
+
+num_of_iters = int(input('Please enter an integer:'))
+
+myL = []
+
+for i in range(num_of_iters):
+    tmp_int = int(input('Please enter an integer'))
+    
+    if tmp_int == 0: break
+
+    myL.append(tmp_int)
+
+s, m = F(myL)
+print(f'The sum is {s}')
+print(f'The mean is {m}')
+
