@@ -1,9 +1,0 @@
-Hello
-1
-<method-wrapper '__repr__' of int object at 0x00000134FA6600F0>
-1
-Type of s1: <class 'str'>
-Type of s2: <class 'str'>
-Type of s3: <class 'str'>
-Type of s4: <class 'str'>
-Type of s5: <class 'str'>
