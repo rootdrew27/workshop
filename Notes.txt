@@ -9,3 +9,35 @@ Talking Points
 - Things to Consider
     - Exceptions
     - Discuss history (who created it, why, when, etc.)
+
+OVERVIEW
+
+ Intro - S
+ Statistical Background - Andrew
+ Supervised Learning
+ Linear/Logistic Regression -Andrew
+ Decision Tree / Random Forest Classification - S
+   Train-Test 
+   Hyperparameter tuning
+   Overfitting/Underfitting
+   Feature Importance
+ Metrics - S
+   Accuracy, Recall, Precision, F1-Score
+   Confusion Matrix
+ Imbalanced Datasets - Andrew
+ 
+ Data Cleaning - Sara
+   Imputation
+   Missing Values
+
+ Data Preprocessing - Sara
+   Categorical vs Numerical Features
+   Encodings
+   Nomarlization
+
+ SVM - Andrew?
+ 
+ Cross-validation - Andrew
+   Different FOLDS
+ Unsupervised Learnning - Sara
+    K-Means 
