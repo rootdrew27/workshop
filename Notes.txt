@@ -16,11 +16,13 @@ OVERVIEW
  Statistical Background - Andrew
  Supervised Learning
  Linear/Logistic Regression -Andrew
+
  Decision Tree / Random Forest Classification - S
    Train-Test 
    Hyperparameter tuning
    Overfitting/Underfitting
    Feature Importance
+
  Metrics - S
    Accuracy, Recall, Precision, F1-Score
    Confusion Matrix
@@ -39,5 +41,6 @@ OVERVIEW
  
  Cross-validation - Andrew
    Different FOLDS
+   
  Unsupervised Learnning - Sara
     K-Means 
