@@ -10,6 +10,9 @@ Talking Points
     - Exceptions
     - Discuss history (who created it, why, when, etc.)
 
+- Review Challenges / expand upon them
+- Check compatibility with Colab
+
 OVERVIEW
 
  Intro - S
@@ -21,11 +24,13 @@ OVERVIEW
    Train-Test 
    Hyperparameter tuning
    Overfitting/Underfitting
+   Regularization
    Feature Importance
 
  Metrics - S
    Accuracy, Recall, Precision, F1-Score
    Confusion Matrix
+
  Imbalanced Datasets - Andrew
  
  Data Cleaning - Sara
@@ -38,7 +43,8 @@ OVERVIEW
    Nomarlization
 
  SVM - Andrew?
- 
+ - Use Recall, Precision, ConfMatrix
+
  Cross-validation - Andrew
    Different FOLDS
    
