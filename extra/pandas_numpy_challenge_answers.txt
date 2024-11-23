@@ -1,0 +1,55 @@
+1. Numpy arrays
+=============================================================
+
+output = np.ones((5, 5))
+
+z = np.zeros((3, 3))
+z[1, 1] = 9
+
+output[1:4, 1:4] = z
+
+print(output)
+
+2. DataFrame 
+=============================================================
+
+marvel_heroes = {
+    'Name': ['Tony Stark', 'Natasha Romanoff', 'Steve Rogers', 'Peter Parker'],
+    'Hero': ['Iron Man', 'Black Widow', 'Captian America', 'Spider Man'],
+    'Skill': ['Big brain', 'Acrobatics', 'Super Strength', 'Sticky'],
+    'Age': [48, 33, 106, 16]
+}
+
+# Create DataFrame
+marvel_df = pd.DataFrame(marvel_heroes)
+
+print(marvel_df)
+
+
+3. Cat iloc loc
+=============================================================
+
+cat_owners_df.iloc[[0, 2], [0]]
+
+cat_owners_df.loc[['Cat Name', 'Age'], ['John']]
+
+
+4. Cat Tail
+=============================================================
+
+cat_owners_df.tail(2)
+
+
+5. Mean 
+=============================================================
+
+marvel_heroes['Age'].mean()
+
+
+
+6. Drop and Insert
+=============================================================
+
+marvel_df.insert(3, 'Coolness lvl', coolness_lvl)
+
+marvel_df.drop(marvel_df.index[1], axis=0, inplace=True)
