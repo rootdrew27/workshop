@@ -10,3 +10,12 @@ model.score(x_test, y_test)
 ==========================================================================
 
 2. 
+
+
+==========================================================================
+
+Regularization: 
+
+model = LogisticRegression(penalty='l1', solver="saga")
+model.fit(data, target)
+model.score(data, target)
